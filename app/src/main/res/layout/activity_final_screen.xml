@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appback"
+    tools:context=".finalScreen">
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="197dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="175dp"
+        android:text="Game Over!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/descpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="description"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/gameOver"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/gameOver"
+        app:layout_constraintTop_toBottomOf="@+id/pntText" />
+
+    <Button
+        android:id="@+id/menuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:background="#2196F3"
+        android:text="Play again?"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="@+id/descpText"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/descpText"
+        app:layout_constraintTop_toBottomOf="@+id/descpText" />
+
+    <TextView
+        android:id="@+id/pntText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/gameOver"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/gameOver"
+        app:layout_constraintTop_toBottomOf="@+id/gameOver" />
+</androidx.constraintlayout.widget.ConstraintLayout>

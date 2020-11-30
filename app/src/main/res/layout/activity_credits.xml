@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appback2"
+    tools:context=".credits">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="330dp"
+        android:layout_height="89dp"
+        android:gravity="center"
+        android:text="APP DESIGNED BY STUDENTS OF THADOMAL SHAHANI ENGINEERING COLLEGE."
+        android:textColor="#192841"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
+
+    <TextView
+        android:id="@+id/disha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="DISHA RAMCHANDANI C24 1902137"
+        android:textColor="#192841"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro" />
+
+    <TextView
+        android:id="@+id/kashish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="KASHISH PHULWANI C24 1902126"
+        android:textColor="#192841"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/disha"
+        app:layout_constraintTop_toBottomOf="@+id/disha" />
+
+    <TextView
+        android:id="@+id/rishi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="RISHI RAJANI C24 1902136"
+        android:textColor="#192841"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/kashish"
+        app:layout_constraintTop_toBottomOf="@+id/kashish" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="SECOND YEAR MPR SUBMISSION"
+        android:textColor="#192841"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/intro"
+        app:layout_constraintStart_toStartOf="@+id/intro"
+        app:layout_constraintTop_toBottomOf="@+id/rishi" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:background="#03FAFA"
+        android:text="Go back to main menu"
+        android:textColor="#192841"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

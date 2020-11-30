@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jumble Words</string>
+    <string name="jumble_words">JUMBLE WORDS!</string>
+    <string name="click_to_start">Click to start</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="credits">3. Developers Information</string>
+    <string name="instructions">1. Instructions</string>
+    <string name="game">2. Play Game</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>
