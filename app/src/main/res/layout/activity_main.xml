@@ -60,13 +60,15 @@
         android:layout_width="335dp"
         android:layout_height="44dp"
         android:layout_marginBottom="40dp"
-        android:text="AN APP BY THADOMAL SHAHANI ENGINEERING COLLEGE STUDENTS"
+        android:text="AN APP BY DISHA RAMCHANDANI"
         android:textAlignment="center"
         android:textColor="#EDEFF3"
-        android:textSize="16dp"
+        android:textSize="10sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.848" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

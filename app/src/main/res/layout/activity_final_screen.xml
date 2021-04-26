@@ -45,10 +45,11 @@
         android:background="#2196F3"
         android:text="Play again?"
         android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/descpText"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/descpText"
-        app:layout_constraintTop_toBottomOf="@+id/descpText" />
+        app:layout_constraintTop_toBottomOf="@+id/descpText"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/pntText"

@@ -14,7 +14,6 @@
         <activity android:name=".Brands" />
         <activity android:name=".Animals" />
         <activity android:name=".Colours" />
-        <activity android:name=".credits" />
         <activity android:name=".gamepage" />
         <activity android:name=".instructpage" />
         <activity android:name=".menupage" />

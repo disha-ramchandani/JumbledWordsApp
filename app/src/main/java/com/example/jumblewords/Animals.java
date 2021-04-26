@@ -104,23 +104,23 @@ public class Animals extends AppCompatActivity {
     }
 
     private String jumbledWord(String s) {
-        String word = ""; //pink
-        s += " "; //pink
-        List<String> letters = Arrays.asList(s.split(""));
-        List<String> part = new ArrayList<String>();
-        for (String letter : letters) {
-            if (letter.equals(" ")) {
-                Collections.shuffle(part);
-                for (String alph : part) {
-                    word += alph;
+        String word = ""; //to store new word
+        s += " "; //adds a space to the original word- pink( )
+        List<String> letters = Arrays.asList(s.split("")); //adding all the letters of the word into a new array list
+        List<String> part = new ArrayList<String>(); //a new array list to shuffle words
+        for (String letter : letters) { //extracting each element from the array list
+            if (letter.equals(" ")) { //checking each element, if it is a space
+                Collections.shuffle(part); //shuffling the word if the element is a space
+                for (String alph : part) { //extracting each alphabet from the part array list
+                    word += alph; //converts the array list to string
                 }
-                part.clear();
-                word += letter;
+                part.clear(); //deletes all the elements of the array list
+                word += letter; //adds a space
             } else {
-                part.add(letter);
+                part.add(letter); //stores letter from letters into array list
             }
         }
-        word = word.trim();
+        word = word.trim(); //remove extra space from end
         return word;
     }
 
